@@ -730,6 +730,7 @@ body {
 }
 .shop-body-card-button:hover {
 	background-color: #323232;
+	cursor: pointer;
 }
 /*-----------------------------------------*/
 /*footer*/
