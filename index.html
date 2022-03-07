@@ -547,6 +547,47 @@
 		<a  href="#0">Copyright © 2009–2019 City Blog LLC.</a>
 	</div>
 </footer>
-
+<div class="popup _hidden">
+  <div class="popup-container">
+  	<div class="popup-title">
+  		<H3>Ваш фидбек</H3>
+  	</div>
+  	<form action="POST" class="popup-form">
+  		<div class="popup-form-select">
+	      <label class="popup-select-group">
+	        <span class="popup-select-label">Как часто вы заходите не сайт?</span>
+	        <select class="popup-select">
+	          <option value="Every_day" selected>Почти каждый день</option>
+	          <option value="Every_few_days">Раз в несколько дней</option>
+	          <option value="Every_few_weeks">Раз в несколько недель</option>
+	          <option value="Several_times_a_year">Несколько раз в год</option>
+	        </select>
+	      </label>
+	    </div>
+	    <div class="popup-form-email">
+	      <span class="popup-radio-label">Вы подписаны на e-mail рассылку?</span>
+        <label class="popup-radio">
+					<input type="radio" class="popup-radio-inp" name="popup-radio"  checked="checked">
+					<span class="popup-radio-text">Да</span>
+				</label>
+				<label class="popup-radio">
+					<input type="radio" class="popup-radio-inp" name="popup-radio">
+					<span class="popup-radio-text">Нет</span>
+				</label>
+	    </div>
+	    <div class="popup-form-text">
+				<label class="popup-text">
+					<span class="popup-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+					<textarea class="popup-hint-text" placeholder="Может, больше рецептов?" required></textarea>
+				</label>
+			</div>
+			<button class="popup-form-submit">
+				<span class="visually-hidden-input">Кнопка чтобы отправить</span>
+				Отправить
+			</button>
+  	</form>
+    <button class="popup-close" type="button">Закрыть окно</button>
+  </div>
+</div>
 </body>
 </html>
