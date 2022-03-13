@@ -593,9 +593,8 @@ body {
 /*-----------------------------------------*/
 /*shop*/
 .shop {
-	width: 1200px;
+	width: 100%;
 	margin: 64px auto 0;
-	padding: 0 15px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -629,6 +628,16 @@ body {
 	margin-top: 20px;
 	width: 100%;
 }
+.shop-body-card {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop-body-card-product {
+	display: flex;
+	flex-direction: column;
+}
+
 .shop-body-img {
 	padding-left: 22px;
 	padding-right: 22px;
@@ -636,6 +645,7 @@ body {
 	justify-content: space-between;
 }
 .shop-body-img-content {
+	margin: 0 auto;
 	width: 300px;
 	height: 204px;
 	background-color: #eff6f1;
@@ -653,17 +663,14 @@ body {
 	background-size: 100% 100%;
 }
 
-.shop-body-card {
-	display: flex;
-	justify-content: space-between;
-}
 .shop-body-card-content {
 	width: 343px;
   margin-top: -30px;
   margin-left: 3px;
   margin-right: 3px;
-	padding: 55px 22px 26px 22px;
+	padding: 55px 20px 26px 20px;
 	outline: 3px solid #b59f5b;
+	flex-grow: 1;
 }
 .shop-body-card-title {
 	text-transform: uppercase;
