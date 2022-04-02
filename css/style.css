@@ -1141,11 +1141,15 @@ body {
 		flex-direction: column;
 		flex-wrap: wrap;
 	}
+	.main-section a {
+		display: contents;
+	}
 	.main-section-logo {
 		width: 100%;
 	}
 	.main-section-body {
-		margin-top: 20px;
+		width: 100%;
+		margin-top: 15px;
 	}
 	.main-section-title {
 		margin-left: 0px;
@@ -1182,7 +1186,7 @@ body {
 		background-color: #eeeeee;
 	}
 	.shop {
-		margin-top: 70px;
+		margin-top: 73px;
 	}
 	.shop-title-text {
 		font-size: 18px;
@@ -1195,6 +1199,12 @@ body {
 	}
 	.shop-body-card-product:nth-child(n+3) {
 		margin-top: 32px;
+	}
+	.shop-body-img-content {
+		width: calc(100% - 48px);
+	}
+	.shop-solid-img {
+		width: 100%;
 	}
 	.shop-body-card-content {
 		width: 100%;
