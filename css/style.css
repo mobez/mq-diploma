@@ -1225,6 +1225,13 @@ body {
 		margin-top: 45px;
 	}
 }
+.popup-close {
+	width: 27px;
+	font-size: 27px;
+}
+.popup-title > H3 {
+	font-size: 18px;
+}
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
 	.trends-blocks {
 		margin-top: 8px;
